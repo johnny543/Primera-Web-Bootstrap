@@ -191,22 +191,26 @@ i {
 
 /*CSS a page Alquilar*/
 
-.contenedorAlquilar {
+/*.headerAlquilar{
+    background-image: url(../assets/img/goli-1918291\ \(1\).jpg);
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
     display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 70px 300px auto 100px;
-    grid-template-areas: "nav    nav    nav    nav    nav"
-        "header header header header header"
-        "main   main   main   aside  aside "
-        "footer footer footer footer footer";
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    z-index: 0;
 }
-
-.principalAlquilar {
-    display: flex;
-    flex-wrap: nowrap;
-    margin-top: 100px;
-}
+.headerAlquilar::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(5,7,12,0.75));
+}*/
 
 /* Fin Page Alquiler*/
 
