@@ -134,12 +134,6 @@ i {
 /*Fin-Cards*/
 
 
-.contenedorVideoNS video {
-    width: 500px;
-    margin-left: 20px;
-    border-radius: 5px;
-}
-
 .inversionAdds {
     display: flex;
     width: 100%;
